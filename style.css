@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    /* background: lightblue; */
+    width:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    
+    transform-style: preserve-3d;
+    min-height: 30vh;
+    width: 35 rem;
+    background-image: url("./james.png") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    border-radius: 20px;
+    padding: 0 rep 5 rep;
+    /* background: violet; */
+    box-shadow: 0 20px 20px rgba(0,0,0,0.2);
+    perspective:1000px;
+
+}
+
+.info{
+    /* display: flex; */
+    justify-content: center;
+    align-items:center;
+    transition: all 0.75s ease-out;
+
+}
+
+h3 {
+    font-weight: lighter;
+    transition: all 0.75s ease-out;
+}
+
+.LBJ{
+    transition: all 0.75s ease-out;
+}
